@@ -1,8 +1,41 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
-.art {
+.product {
+    border-width: 5px;
+    border-color: black;
+}
+.name {
     text-align: center;
-    background-color:lightgray;
-    
+    background-color: rgb(221, 219, 219);
+    text-transform: uppercase;
+}
+.price {
+    font-size: 30px;
+}
+.delivery {
+    font-size: 12px;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+.details {
+    text-transform: uppercase;
+}
+ul {
+    list-style: square;
+}
+.cart {
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+}
+.cart:hover {
+    background-color: white;
+    color: black;
+    border: none;
 }
