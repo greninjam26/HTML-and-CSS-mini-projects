@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.container {
-    width: 825px;
-    margin: 0 auto;
-}
 body {
     font-family: sans-serif;
     line-height: 1.4;
@@ -15,6 +11,8 @@ p {
 }
 .product {
     border: 5px solid black;
+    width: 825px;
+    margin: 0 auto;
 }
 .product-name {
     text-align: center;
