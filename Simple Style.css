@@ -10,6 +10,17 @@ body {
     border: 5px solid black;
     width: 825px;
     margin: 50px auto;
+    position:relative;
+}
+.sale {
+    background-color: red;
+    position: absolute;
+    top: -15px;
+    left: -30px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    letter-spacing: 0.2em;
 }
 .product-name {
     text-align: center;
