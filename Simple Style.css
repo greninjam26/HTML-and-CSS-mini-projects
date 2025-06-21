@@ -6,20 +6,16 @@ body {
     font-family: sans-serif;
     line-height: 1.4;
 }
-p {
-    margin-bottom: 10px;
-}
 .product {
     border: 5px solid black;
     width: 825px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .product-name {
     text-align: center;
     background-color: rgb(221, 219, 219);
     text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 .price {
     font-size: 30px;
@@ -51,7 +47,7 @@ p {
     list-style: square;
     margin-left: 20px;
 }
-li {
+.details-list li {
     margin-bottom: 10px;
 }
 .add-cart {
@@ -62,7 +58,7 @@ li {
     border: none;
     cursor: pointer;
     width: 100%;
-    height: 40px;
+    padding: 15px;
     border-top: 5px solid black;
 }
 .add-cart:hover {
