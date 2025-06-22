@@ -14,13 +14,15 @@ body {
 }
 .sale {
     background-color: red;
+    font-weight: bold;
     position: absolute;
     top: -15px;
     left: -30px;
     padding: 5px 10px;
     font-size: 10px;
     color: white;
-    letter-spacing: 0.2em;
+    letter-spacing: 2px;
+    display: inline-block;
 }
 .product-name {
     text-align: center;
@@ -44,30 +46,33 @@ body {
 .more-info:link,
 .more-info:visited {
     color: black;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 .more-info:hover,
 .more-info:active {
     text-decoration: none;
 }
 .colors {
-    margin: 30px 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
-.colors-red {
+.color {
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.color:last-child {
+    margin-right: 0;
+}
+.color-red {
     background-color: red;
-    padding: 10px;
-    margin-right: 10px;
-    display: inline-block;
 }
-.colors-blue {
+.color-blue {
     background-color: blue;
-    padding: 10px;
-    margin-right: 10px;
-    display: inline-block;
 }
-.colors-yellow {
+.color-yellow {
     background-color: yellow;
-    padding: 10px;
-    display: inline-block;
 }
 .details-title {
     text-transform: uppercase;
