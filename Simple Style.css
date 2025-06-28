@@ -11,7 +11,7 @@ body {
     border: 5px solid black;
     width: 830px;
     margin: 50px auto;
-    position:relative;
+    position: relative;
 }
 .sale {
     background-color: red;
@@ -33,7 +33,7 @@ body {
 }
 .price {
     font-size: 30px;
-    float: left
+    float: left;
 }
 .delivery {
     font-size: 12px;
