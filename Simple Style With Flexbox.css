@@ -33,7 +33,6 @@ body {
 }
 .price {
     font-size: 30px;
-    float: left;
 }
 .delivery {
     font-size: 12px;
@@ -42,7 +41,6 @@ body {
     color: #777;
     margin-bottom: 20px;
     margin-top: 12px;
-    float: right;
 }
 .delivery-details {
     clear: both;
@@ -109,17 +107,11 @@ body {
 }
 
 .product-image {
-    float: left;
     width: 250px;
 }
 .selling {
-    float: left;
-    margin-left: 40px;
-    margin-top: 20px;
     width: 250px;
 }
 .details {
-    float: right;
     width: 250px;
-    margin-top: 25px;
 }
