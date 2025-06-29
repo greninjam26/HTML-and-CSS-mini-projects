@@ -105,7 +105,9 @@ body {
     background-color: white;
     color: black;
 }
-
+.container {
+    display: flex;
+}
 .product-image {
     width: 250px;
 }
