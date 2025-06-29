@@ -31,6 +31,11 @@ body {
     text-transform: uppercase;
     padding: 10px;
 }
+.price-shipping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .price {
     font-size: 30px;
 }
@@ -39,8 +44,6 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #777;
-    margin-bottom: 20px;
-    margin-top: 12px;
 }
 .delivery-details {
     clear: both;
@@ -60,15 +63,12 @@ body {
 }
 .colors {
     /* margin-left: 10px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    gap: 10px;
 }
 .color {
     padding: 10px;
-    margin-right: 10px;
-    display: inline-block;
-}
-.color:last-child {
-    margin-right: 0;
 }
 .color-red {
     background-color: red;
@@ -107,6 +107,8 @@ body {
 }
 .container {
     display: flex;
+    justify-content: space-between;
+    align-items: top;
 }
 .product-image {
     width: 250px;
