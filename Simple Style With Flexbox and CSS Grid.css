@@ -12,6 +12,9 @@ body {
     width: 830px;
     margin: 50px auto;
     position: relative;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 35px;
 }
 .sale {
     background-color: red;
@@ -30,6 +33,7 @@ body {
     background-color: rgb(221, 219, 219);
     text-transform: uppercase;
     padding: 10px;
+    grid-column: 1/-1;
 }
 .price-shipping {
     display: flex;
@@ -97,22 +101,12 @@ body {
     width: 100%;
     padding: 15px;
     border-top: 5px solid black;
+    grid-column: 1/-1;
 }
 .add-cart:hover {
     background-color: white;
     color: black;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-}
 .product-image {
-    width: 250px;
-}
-.selling {
-    width: 250px;
-}
-.details {
     width: 250px;
 }
